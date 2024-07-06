@@ -1,3 +1,15 @@
+   // movable title
+   let typed= new Typed(".designation",{
+    strings:["Web Developer !" ,"React Developer !" ],
+    typeSpeed:50,
+    backSpeed:20,
+    backDelay:1000,
+    loop:true,
+});
+
+
+
+
 let sections = document.querySelectorAll('section');
 let  navlinks= document.querySelectorAll('header nav a');
 
@@ -32,3 +44,5 @@ menuIcon.onclick = () =>
     { menuIcon.classList.toggle('bx-x');
         navbar.classList.toggle('active');
     };
+
+ 
