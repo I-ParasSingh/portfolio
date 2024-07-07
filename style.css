@@ -390,6 +390,13 @@ flex-wrap: wrap;
         display: none;
         flex-direction: column;
     }
+    .navbar.active {
+        display: flex;
+    }
+    
+    #menu-icon.bx-x {
+        transform: rotate(90deg);
+    }
 
     .navbar a {
         font-size: 2rem;
